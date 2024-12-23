@@ -1,47 +1,53 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script>
+     import Home from './components/Home.vue'
+     import About from './components/About.vue'
+     import NotFound from './components/NotFound.vue'
+
+     const routes = {
+       '/': Home,
+       '/about': About
+     }
+
+     export default {
+          data() {
+               return {
+               currentPath : window.location.hash
+          }
+          },
+          computed: {
+               currentView() {
+                return routes[this.currentPath.slice(1) || '/'] || NotFound
+               }
+          },
+          mounted() {
+               window.addEventListener('hashchange', () => {
+               this.currentPath = window.location.hash
+               })
+          },
+     }
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+     <a href="#/">Home</a> |
+     <a href="#/about">About</a> |
+     <a href="#/non-existent-path">Broken Link</a>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+     <Transition name="fade" mode="out-in">
+          <component :is="currentView"/>
+     </Transition>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+
+.fade-enter-active,
+.fade-leave-active {
+     transition: opacity 0.5s ease;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.fade-enter-form,
+.fade-leave-to {
+     opacity: 0;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
