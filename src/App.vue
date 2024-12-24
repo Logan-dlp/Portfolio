@@ -31,7 +31,7 @@
 
 <template>
      <nav class="navbar">
-          <a href="#/"><img src="../public/logo.svg" alt="" class="logo"> portfolio - delachapelle logan</a>
+          <a href="#/"> <img src="../public/logo.svg" alt="" class="logo"> portfolio - delachapelle logan</a>
           <ul class="nav-links">
                <li><a href="#/about">about</a></li>
                <li><a href="#/projects">projects</a></li>
