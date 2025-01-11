@@ -1,9 +1,8 @@
 <script>
-     import './assets/App.css'
-
      import Home from './components/Home.vue'
      import About from './components/About.vue'
      import NotFound from './components/NotFound.vue'
+     import Navbar from './components/Nav.vue'
 
      const routes = {
        '/': Home,
@@ -11,38 +10,37 @@
      }
 
      export default {
+          components: {
+               Navbar,
+          },
+
           data() {
                return {
                currentPath : window.location.hash
-          }
-          },
-          computed: {
-               currentView() {
-                return routes[this.currentPath.slice(1) || '/'] || NotFound
                }
           },
+
+          computed: {
+               currentView() {
+                    return routes[this.currentPath.slice(1) || '/'] || NotFound
+               }
+          },
+
           mounted() {
                window.addEventListener('hashchange', () => {
-               this.currentPath = window.location.hash
+                    this.currentPath = window.location.hash
                })
           },
      }
 </script>
 
 <template>
-     <nav class="navbar">
-          <a href="#/"> <img src="../public/logo.svg" alt="" class="logo"> portfolio - delachapelle logan</a>
-          <ul class="nav-links">
-               <li><a href="#/about">about</a></li>
-               <li><a href="#/projects">projects</a></li>
-               <li><a href="#/contact">contact</a></li>
-          </ul>
-     </nav>
+     <Navbar />
 
      <Transition name="fade" mode="out-in">
-          <component :is="currentView"/>
+          <component :is="currentView" />
      </Transition>
-
+     
 </template>
 
 <style scoped>
