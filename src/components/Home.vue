@@ -5,7 +5,7 @@
     name: "ProgressiveText",
     data() {
         return {
-            fullText: `Hi, i'm Logan !<br>Tools & Gameplay Programmer.`,
+            fullText: `Hi, I'm Logan !<br>Tools & Gameplay Programmer.`,
             displayedText: "",
             index: 0,
             isTag: false,
