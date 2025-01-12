@@ -36,21 +36,7 @@
 </script>
 
 <template>
-    <div>
-        <div class="text-container">
-            <span v-html="displayedText"></span><span :class="['cursor', { 'blinking': !isTyping }]"></span>
-        </div>
-    
-        <div class="logo-container">
-            <div>
-                <img src="../../public/U_Cube_1C_Black.png" alt="" class="logo_code">
-                <img src="../../public/UE-Icon-2023-Black.png" alt="" class="logo_code">
-            </div>
-
-            <div>
-                <img src="../../public/Logo_C_sharp.png" alt="" class="logo_code">
-                <img src="../../public/cpp_logo.png" alt="" class="logo_code">
-            </div>
-        </div>
+    <div class="text-container">
+        <span v-html="displayedText"></span><span :class="['cursor', { 'blinking': !isTyping }]"></span>
     </div>
 </template>

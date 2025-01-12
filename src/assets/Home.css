@@ -3,10 +3,8 @@
 .text-container {
     font-family: "Space Grotesk", sans-serif;
     font-weight: 700;
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+    position: fixed;
+    padding: 17rem;
     font-size: 3rem;
     line-height: 3.5rem;
 }
@@ -31,16 +29,3 @@
         background-color: transparent;
     }
 }
-
-.logo-container .logo_code {
-    width: 128px;
-    height: 135px;
-    padding: 2rem;
-    position: relative;
-    transform: translateX(70rem);
-}
-
-.logo-container {
-    padding: 5rem;
-}
-
