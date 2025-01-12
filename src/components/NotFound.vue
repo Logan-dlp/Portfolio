@@ -1,5 +1,10 @@
+<script>
+    import '../assets/NotFound.css'
+</script>
+
 <template>
-    <div>
-        <h1>Not Found</h1>
+    <div class="error-container">
+        <span>Error 404</span>
+        <span>Not Found</span>
     </div>
 </template>
