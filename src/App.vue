@@ -1,12 +1,14 @@
 <script>
      import Home from './components/Home.vue'
      import About from './components/About.vue'
+     import Skill from './components/Skill.vue'
      import NotFound from './components/NotFound.vue'
      import Navbar from './components/Nav.vue'
 
      const routes = {
        '/': Home,
-       '/about': About
+       '/about': About,
+       '/skill': Skill,
      }
 
      export default {
@@ -37,13 +39,17 @@
 <template>
      <Navbar />
 
-     <Transition name="fade" mode="out-in">
+     <Transition name="fade" mode="out-in" class="comp">
           <component :is="currentView" />
      </Transition>
      
 </template>
 
 <style scoped>
+
+.comp {
+     margin: 0;
+}
 
 .fade-enter-active {
      transition: all 0.3s ease-out;
