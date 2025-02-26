@@ -40,5 +40,37 @@
                 <h3>Xbox Series X/S</h3>
             </div>
         </div>
+
+        <h2>Soft Skills</h2>
+        <div class="all-skill">
+            <div class="slot-skill">
+                <div class="skill">
+                    <h4>Communications</h4>
+                    <p>To be an effective communicator, I ensure that what I say is professional, inclusive, and well received by others. I strive to be an approachable and reliable team member.</p>
+                </div>
+
+                <div class="skill">
+                    <h4>Eager to Learn</h4>
+                    <p>Every project has many opportunities to learn something new, and thus I am always curious to learn something new from the project itself or from the talented people around me.</p>
+                </div>
+
+                <div class="skill">
+                    <h4>Teamwork</h4>
+                    <p>I want to be a colleague others can rely on, always being willing to receive and give feedback. Thus, I endorse peer programming, code reviews, and discussions to make everything just a bit better.</p>
+                </div>
+            </div>
+
+            <div class="slot-skill">
+                <div class="skill">
+                    <h4>Feedback driven</h4>
+                    <p>I see constructive feedback as valuable information for becoming better as a professional. To grow as one, I frequently seek feedback on my deliverables and collaboration quality for others.</p>
+                </div>
+
+                <div class="skill">
+                    <h4>Proactive</h4>
+                    <p>Dealing with blocks or setbacks requires a healthy amount of dedication and the willingness to not give up. Where logical, I will strive to find a solution or raise awareness of a problem with the team.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
