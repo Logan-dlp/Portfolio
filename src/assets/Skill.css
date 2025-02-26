@@ -22,12 +22,8 @@
     align-items: center;
 }
 
-.container .container-slot .slot {
-    padding-bottom: .5vh;
-}
-
 .container .container-slot-bottom .slot-bottom {
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
 }
 
 .container .container-slot .slot img,
