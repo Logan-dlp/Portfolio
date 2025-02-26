@@ -75,24 +75,24 @@
 
         <h2>Development Tools</h2>
         <p>Alongside developing games, I have made use of a bunch of industry-standard software to help with the creation of a project.</p>
-        <div class="container-slot">
-            <div class="slot">
+        <div class="container-slot-bottom">
+            <div class="slot-bottom">
                 <img src="../../public/VisualStudioLogo.svg" alt="">
                 <h3>Visual Studio</h3>
             </div>
-            <div class="slot">
+            <div class="slot-bottom">
                 <img src="../../public/UnityLogo.svg" alt="">
                 <h3>Unity Engine</h3>
             </div>
-            <div class="slot">
+            <div class="slot-bottom">
                 <img src="../../public/UnrealLogo.svg" alt="">
                 <h3>Unreal Engine</h3>
             </div>
-            <div class="slot">
+            <div class="slot-bottom">
                 <img src="../../public/GitLogo.svg" alt="">
                 <h3>GIT</h3>
             </div>
-            <div class="slot">
+            <div class="slot-bottom">
                 <img src="../../public/ForkLogo.png" alt="">
                 <h3>Fork</h3>
             </div>

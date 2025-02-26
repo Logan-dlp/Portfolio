@@ -9,25 +9,36 @@
     align-items: center;
     height: 10vh;
     text-align: center;
-    padding: 90vh 20vh;
+    padding: 95vh 20vh;
 }
 
 .container h2 {
     font-size: 5vh;
 }
 
-.container .container-slot {
+.container .container-slot,
+.container .container-slot-bottom {
     display: flex;
     align-items: center;
 }
 
-.container .container-slot .slot img {
-    width: 10vh;
-    padding: 0 10vh;
-    margin-top: 5vh;
+.container .container-slot .slot {
+    padding-bottom: .5vh;
 }
 
-.container .container-slot .slot h3 {
+.container .container-slot-bottom .slot-bottom {
+    padding-bottom: 15vh;
+}
+
+.container .container-slot .slot img,
+.container .container-slot-bottom .slot-bottom img {
+    width: 10vh;
+    padding: 0 10vh;
+    margin-top: 3vh;
+}
+
+.container .container-slot .slot h3,
+.container .container-slot-bottom .slot-bottom h3 {
     text-decoration: underline;
 }
 
