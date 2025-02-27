@@ -4,9 +4,9 @@
 
 <template>
     <div class="about-container">
-        <h1>About me</h1>
-        <p>I started to get interested in programming at the age of fifteen, I loved learning and creating systems and being able to touch everything. After gaining some experience in web development, I moved towards game programming.</p>
-        <p>I am now a game programmer, studying at E-artsup Montpellier I am trying to learn even more about game development or even toolshelp with it and am looking for an internship or a CDI/CDD for this.</p>
-        <p>During the projects, I implemented game features in collaboration with team members and agile methodology, created development tools and extended game architecture pipelines with a focus on maintainable and explicit code.</p>
+        <h1>À propos de moi</h1>
+        <p>J'ai commencé à m'intéresser à la programmation à l'âge de quinze ans, j'adorais apprendre et créer des systèmes et pouvoir toucher à tout. Après avoir acquis une certaine expérience dans le développement web, je me suis orienté vers la programmation de jeux.</p>
+        <p>Je suis maintenant programmeur de jeux, étudiant à E-artsup Montpellier. J'essaie d'en apprendre encore plus sur le développement de jeux ou même sur les outils d'aide à cela et je recherche un stage ou un CDI/CDD pour cela.</p>
+        <p>Au cours des projets, j'ai implémenté des fonctionnalités de jeu en collaboration avec les membres de l'équipe et une méthodologie agile, créé des outils de développement et étendu les pipelines d'architecture de jeu en mettant l'accent sur le code maintenable et explicite.</p>
     </div>
 </template>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+.contact {
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+    padding: 20vh 20vh;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 5vh;
+}
+
+.contact .contact-slot {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.contact .contact-slot .slot img {
+    width: 10vh;
+    padding: 0 20vh;
+    margin-top: 3vh;
+}
+
+.contact .contact-slot .slot h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact a button {
+    border-radius: 10px;
+    border: none;
+    background-color: #20639B;
+    padding: .5vh 4vh;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.contact a button:hover {
+    cursor: pointer;
+    background-color: #145184;
+}

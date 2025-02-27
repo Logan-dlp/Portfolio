@@ -2,6 +2,7 @@
      import Home from './components/Home.vue'
      import About from './components/About.vue'
      import Skill from './components/Skill.vue'
+     import Contact from './components/Contact.vue'
      import NotFound from './components/NotFound.vue'
      import Navbar from './components/Nav.vue'
 
@@ -9,6 +10,7 @@
        '/': Home,
        '/about': About,
        '/skill': Skill,
+       '/contact' : Contact,
      }
 
      export default {
@@ -18,7 +20,7 @@
 
           data() {
                return {
-               currentPath : window.location.hash
+                    currentPath : window.location.hash
                }
           },
 
@@ -52,11 +54,11 @@
 }
 
 .fade-enter-active {
-     transition: all 0.3s ease-out;
+     transition: all 0.5s ease-out;
 }
 
 .fade-leave-active {
-     transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+     transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
 .fade-enter-from,

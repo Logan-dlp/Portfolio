@@ -4,8 +4,8 @@
 
 <template>
     <div class="container">
-        <h2>Programming Languages</h2>
-        <p>On a daily basis, I use C# to develop most of my projects, I also know how to adapt to these frameworks such as .NET. However, I aim to get started in other languages ​​that fascinate me just as much, such as C++ or python to make tools on any software, to broaden my programming experience.</p>
+        <h2>Langages de programmation</h2>
+        <p>Au quotidien, j'utilise C# pour développer la plupart de mes projets, je sais également m'adapter à ces frameworks comme .NET. J'ai cependant pour objectif de me lancer dans d'autres langages qui me passionnent tout autant, comme C++ ou python pour réaliser des outils sur n'importe quel logiciel, afin d'élargir mon expérience en programmation.</p>
         <div class="container-slot">
             <div class="slot">
                 <img src="../../public/CSharpLogo.svg" alt="">
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <h2>Targeted Platforms</h2>
+        <h2>Plateformes ciblées</h2>
         <div class="container-slot">
             <div class="slot">
                 <img src="../../public/WindowsLogo.svg" alt="">
@@ -41,40 +41,40 @@
             </div>
         </div>
 
-        <h2>Soft Skills</h2>
+        <h2>Compétences générales</h2>
         <div class="all-skill">
             <div class="slot-skill">
                 <div class="skill">
                     <h4>Communications</h4>
-                    <p>To be an effective communicator, I ensure that what I say is professional, inclusive, and well received by others. I strive to be an approachable and reliable team member.</p>
+                    <p>Pour être un communicateur efficace, je m'assure que ce que je dis est professionnel, inclusif et bien reçu par les autres. Je m'efforce d'être un membre d'équipe accessible et fiable.</p>
                 </div>
 
                 <div class="skill">
-                    <h4>Eager to Learn</h4>
-                    <p>Every project has many opportunities to learn something new, and thus I am always curious to learn something new from the project itself or from the talented people around me.</p>
+                    <h4>Avide d'apprendre</h4>
+                    <p>Chaque projet offre de nombreuses opportunités d’apprendre quelque chose de nouveau, et je suis donc toujours curieux d’apprendre quelque chose de nouveau du projet lui-même ou des personnes talentueuses qui m’entourent.</p>
                 </div>
 
                 <div class="skill">
-                    <h4>Teamwork</h4>
-                    <p>I want to be a colleague others can rely on, always being willing to receive and give feedback. Thus, I endorse peer programming, code reviews, and discussions to make everything just a bit better.</p>
+                    <h4>Travail d'équipe</h4>
+                    <p>Je veux être un collègue sur lequel les autres peuvent compter, toujours prêt à recevoir et à donner du feedback. C'est pourquoi je soutiens la programmation par les pairs, les révisions de code et les discussions pour que tout soit un peu meilleur.</p>
                 </div>
             </div>
 
             <div class="slot-skill">
                 <div class="skill">
-                    <h4>Feedback driven</h4>
-                    <p>I see constructive feedback as valuable information for becoming better as a professional. To grow as one, I frequently seek feedback on my deliverables and collaboration quality for others.</p>
+                    <h4>Basé sur les commentaires</h4>
+                    <p>Je considère les commentaires constructifs comme des informations précieuses pour m'améliorer en tant que professionnel. Pour m'épanouir, je recherche fréquemment des commentaires sur mes livrables et la qualité de ma collaboration avec les autres.</p>
                 </div>
 
                 <div class="skill">
-                    <h4>Proactive</h4>
-                    <p>Dealing with blocks or setbacks requires a healthy amount of dedication and the willingness to not give up. Where logical, I will strive to find a solution or raise awareness of a problem with the team.</p>
+                    <h4>Proactif</h4>
+                    <p>Faire face à des blocages ou des échecs nécessite une bonne dose de dévouement et la volonté de ne pas abandonner. Lorsque cela est logique, je m'efforcerai de trouver une solution ou de sensibiliser l'équipe à un problème.</p>
                 </div>
             </div>
         </div>
 
-        <h2>Development Tools</h2>
-        <p>Alongside developing games, I have made use of a bunch of industry-standard software to help with the creation of a project.</p>
+        <h2>Outils de développement</h2>
+        <p>Parallèlement au développement de jeux, j'ai utilisé un ensemble de logiciels standard de l'industrie pour aider à la création d'un projet.</p>
         <div class="container-slot-bottom">
             <div class="slot-bottom">
                 <img src="../../public/VisualStudioLogo.svg" alt="">
