@@ -25,7 +25,7 @@
                 </div>
             </a>
         </div>
-        <a href="../../public/CV-Delachapelle_Logan-2025.pdf" download="CV-Delachapelle_Logan-2025.pdf">
+        <a href="CV-Delachapelle_Logan-2025.pdf" download="CV-Delachapelle_Logan-2025.pdf">
             <button>CV</button>
         </a>
     </div>
