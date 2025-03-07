@@ -3,14 +3,12 @@
 </script>
 
 <template>
-    <nav class="navbar">
-          <ul class="nav-links">
-               <li><a href="#/">home</a></li>
-               <li><a href="#/about">about</a></li>
-               <li><a href="#/skill">skill</a></li>
-               <li><a href="#/projects">projects</a></li>
-               <li><a href="#/contact">contact</a></li>
-          </ul>
-     </nav>
+    <div class="navbar">
+          <a href="#/">Home</a>
+          <a href="#/about">About</a>
+          <a href="#/skill">Skill</a>
+          <a href="#/projects">Projects</a>
+          <a href="#/contact">Contact</a>
+    </div>
 </template>
 
