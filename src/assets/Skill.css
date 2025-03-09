@@ -12,8 +12,12 @@
     padding: 100vh 20vh;
 }
 
-.container h2 {
-    font-size: 5vh;
+.container .container-tilte {
+    font-size: 6vh;
+}
+
+.container .container-text {
+    font-size: 2vh;
 }
 
 .container .container-slot,
@@ -49,4 +53,63 @@
 
 .all-skill .slot-skill .skill h4 {
     font-size: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        color: #fff;
+        font-family: "Space Grotesk", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        text-align: center;
+        padding: 120vh 0vh;
+    }
+    
+    .container .container-tilte {
+        font-size: 3.5vh;
+    }
+
+    .container .container-text {
+        font-size: 1.5vh;
+    }
+    
+    .container .container-slot,
+    .container .container-slot-bottom {
+        display: flex;
+        align-items: center;
+    }
+    
+    .container .container-slot-bottom .slot-bottom {
+        padding-bottom: 0vh;
+    }
+    
+    .container .container-slot .slot img,
+    .container .container-slot-bottom .slot-bottom img {
+        width: 5vh;
+        padding: 0 2.5vh;
+        margin-top: 3vh;
+    }
+    
+    .container .container-slot .slot h3,
+    .container .container-slot-bottom .slot-bottom h3 {
+        text-decoration: underline;
+        font-size: 1vh;
+    }
+    
+    .all-skill .slot-skill {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .all-skill .slot-skill .skill {
+        padding: .5vh 4vh;
+        font-size: 2vh;
+    }
+    
+    .all-skill .slot-skill .skill h4 {
+        font-size: 2.5vh;
+    }
 }

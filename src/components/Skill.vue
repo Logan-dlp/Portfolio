@@ -4,8 +4,8 @@
 
 <template>
     <div class="container">
-        <h2>Langages de programmation</h2>
-        <p>Au quotidien, j'utilise C# pour développer la plupart de mes projets, je sais également m'adapter à ces frameworks comme .NET. J'ai cependant pour objectif de me lancer dans d'autres langages qui me passionnent tout autant, comme C++ ou python pour réaliser des outils sur n'importe quel logiciel, afin d'élargir mon expérience en programmation.</p>
+        <h2 class="container-tilte">Langages de programmation</h2>
+        <p class="container-text">Au quotidien, j'utilise C# pour développer la plupart de mes projets, je sais également m'adapter à ces frameworks comme .NET. J'ai cependant pour objectif de me lancer dans d'autres langages qui me passionnent tout autant, comme C++ ou python pour réaliser des outils sur n'importe quel logiciel, afin d'élargir mon expérience en programmation.</p>
         <div class="container-slot">
             <div class="slot">
                 <img src="../../public/CSharpLogo.svg" alt="">
@@ -73,8 +73,8 @@
             </div>
         </div>
 
-        <h2>Outils de développement</h2>
-        <p>Parallèlement au développement de jeux, j'ai utilisé un ensemble de logiciels standard de l'industrie pour aider à la création d'un projet.</p>
+        <h2 class="container-tilte">Outils de développement</h2>
+        <p class="container-text">Parallèlement au développement de jeux, j'ai utilisé un ensemble de logiciels standard de l'industrie pour aider à la création d'un projet.</p>
         <div class="container-slot-bottom">
             <div class="slot-bottom">
                 <img src="../../public/VisualStudioLogo.svg" alt="">
