@@ -21,11 +21,29 @@
 }
 
 .cursor.blinking {
-    animation: blink 0.6s step-end infinite;
+    animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
     50% {
         background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        position: fixed;
+        padding: 30vh 2vh;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .cursor {
+        display: inline-block;
+        width: 2.5px;
+        height: 2rem;
+        background-color: #fff;
     }
 }
