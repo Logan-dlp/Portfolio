@@ -76,12 +76,6 @@
         font-size: 1.5vh;
     }
     
-    .container .container-slot,
-    .container .container-slot-bottom {
-        display: flex;
-        align-items: center;
-    }
-    
     .container .container-slot-bottom .slot-bottom {
         padding-bottom: 0vh;
     }
