@@ -71,3 +71,39 @@
 .project-info .li-container div {
     padding-right: 15vh;
 }
+
+@media screen and (max-width: 768px) {
+    .project-info {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: .8rem;
+        color: #fff;
+        padding: 0;
+    }
+
+    .project-container .project-container-info {
+        margin-top: 2vh;
+        font-family: "Space Grotesk", sans-serif;
+        font-size: .8rem;
+        color: #fff;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .project-container .project-container-info .project-container-button a button {
+        border-radius: 5px;
+        border: none;
+        padding: .5vh 2.5vh;
+        font-size: 2vh;
+        color: #fff;
+    }
+
+    .project-info .li-container div {
+        padding-right: 2.5vh;
+    }
+
+    .project-container .project-container-element .project-container-video {
+        margin-top: 2vh;
+        width: 40vh;
+        height: 25vh;
+    }
+}

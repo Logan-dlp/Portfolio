@@ -9,7 +9,7 @@
         </div>
         <div class="all-description">
             <h1>Painting Quest</h1>
-            <p>Dans le cadre de mes études à <strong><u>E-artsup Montpellier</u></strong>, mon équipe et moi composé de 2<sup>eme</sup> année et de 3<sup>eme</sup> année avons pu participé à la nocturne <strong><u>FABRE N'EST PAS COUCHÉ</u></strong>, organiser par le <strong><u>Musée Fabre de Montpellier</u></strong>.</p>
+            <p>Dans le cadre de mes études à <strong><u>E-artsup Montpellier</u></strong>, mon équipe et moi composé de 2<sup>eme</sup> année et de 3<sup>eme</sup> année avons pu participé à la nocturne <strong><u>"FABRE N'EST PAS COUCHÉ" 2025</u></strong>, organiser par le <strong><u>Musée Fabre de Montpellier</u></strong>.</p>
             <div class="button-links">
                 <a class="detail" href="#/project/painting-quest">
                     <button>Détails >></button>
