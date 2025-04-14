@@ -1,0 +1,59 @@
+.project {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    display: flex;
+    padding: 3vh 10vh;
+}
+
+.project .highlighting .video {
+    width: 70vh;
+    height: 40vh;
+}
+
+.project .all-description {
+    padding: 0vh 5vh;
+}
+
+.project .all-description .button-links a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 3vh;
+}
+
+.project .all-description .button-links a button {
+    margin-top: 5vh;
+    border-radius: 5px;
+    border: none;
+    padding: .5vh 4vh;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.project .all-description .button-links a button:hover {
+    cursor: pointer;
+}
+
+.project .all-description .button-links .detail button {
+    background-color: #3498db;
+}
+
+.project .all-description .button-links .detail button:hover {
+    background-color: #2e86c1;
+}
+
+.project .all-description .button-links .git button {
+    background-color: #34495e;
+}
+
+.project .all-description .button-links .git button:hover {
+    background-color: #2e4053;
+}
+
+.project .all-description .button-links .download button {
+    background-color: #27ae60;
+}
+
+.project .all-description .button-links .download button:hover {
+    background-color: #229954;
+}

@@ -2,15 +2,22 @@
      import Home from './components/Home.vue'
      import About from './components/About.vue'
      import Skill from './components/Skill.vue'
+     import Project from './components/Project.vue'
      import Contact from './components/Contact.vue'
-     import NotFound from './components/NotFound.vue'
      import Navbar from './components/Nav.vue'
+     
+     import PaintingQuest from './components/projects/PaintinQuest.vue'
+     
+     import NotFound from './components/NotFound.vue'
 
      const routes = {
        '/': Home,
        '/about': About,
        '/skill': Skill,
+       '/project': Project,
        '/contact' : Contact,
+
+       '/project/painting-quest': PaintingQuest,
      }
 
      export default {

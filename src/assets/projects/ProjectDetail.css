@@ -1,0 +1,73 @@
+.project-container {
+    padding-bottom: 5vh;
+}
+
+.project-container .project-container-element {
+    display: flex;
+    justify-content: center;
+}
+
+.project-container .project-container-element .project-container-video {
+    width: 80vh;
+    height: 45vh;
+}
+
+.project-info {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 25vh;
+}
+
+.project-container .project-container-info {
+    margin-top: 5vh;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-container-info .project-container-button a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 3vh;
+}
+
+.project-container .project-container-info .project-container-button a button {
+    border-radius: 5px;
+    border: none;
+    padding: .5vh 4vh;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+.project-container .project-container-info .project-container-button a button:hover {
+    cursor: pointer;
+}
+
+.project-container .project-container-info .project-container-button .git button {
+    background-color: #34495e;
+}
+
+.project-container .project-container-info .project-container-button .git button:hover {
+    background-color: #2e4053;
+}
+
+.project-container .project-container-info .project-container-button .download button {
+    background-color: #27ae60;
+}
+
+.project-container .project-container-info .project-container-button .download button:hover {
+    background-color: #229954;
+}
+
+.project-info .li-container {
+    display: flex;
+}
+
+.project-info .li-container div {
+    padding-right: 15vh;
+}

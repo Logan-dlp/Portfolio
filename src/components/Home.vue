@@ -12,7 +12,7 @@
             isTyping: true,
         };
     },
-  methods: {
+    methods: {
         typeText() {
             if (this.index < this.fullText.length) {
                 const char = this.fullText[this.index];
