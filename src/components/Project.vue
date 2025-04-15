@@ -52,7 +52,7 @@
             </div>
             <div class="all-description">
                 <h1>PrefaBrush</h1>
-                <p>Lors d'un projet nous avons voulu utiliser le Grass Painter d'Unity, mais n'étant pas totalement adapté complètement à nos besoins et notre utilisation, je me suis mis au défi de réaliser un Tools répondant à tous les besoins principaux d'un Painter dont on avait besoin.</p>
+                <p>Lors d'un projet nous avons voulu utiliser le Grass Painter d'Unity, mais n'étant pas totalement adapté à nos besoins et notre utilisation, je me suis mis au défi de réaliser un Tools répondant à tous les besoins principaux d'un Painter dont on avait besoin.</p>
                 <div class="button-links">
                     <a class="detail" href="#/project/prefabrush">
                         <button>Détails >></button>
