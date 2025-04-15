@@ -41,9 +41,10 @@
                     <li>Paul Lamotte</li>
                 </div>
             </div>
-            <h3>Moteur de jeu et outils :</h3>
+            <h3>Moteur de jeu, outils et langue :</h3>
             <div class="li-container">
                 <div>
+                    <li>C#</li>
                     <li>Unity 5</li>
                     <li>Fork</li>
                     <li>Jetbrain Rider</li>
