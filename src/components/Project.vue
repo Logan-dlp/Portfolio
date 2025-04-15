@@ -24,5 +24,26 @@
                 </div>
             </div>
         </div>
+
+        <div class="project">
+            <div class="highlighting">
+                <iframe class="video" src="https://www.youtube.com/embed/KIB68oq7cV8?si=Nsn2D-Iz5e8pBoaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="all-description">
+                <h1>CelShading for Unity6+</h1>
+                <p>Avec les changements de Unity 6 et leurs nouvelles gestions des lumières nous avons eu, moi et mon équipe une problématique avec les packages de CelShading déjà fait.</p>
+                <div class="button-links">
+                    <a class="detail" href="#/project/celshading-for-unity6">
+                        <button>Détails >></button>
+                    </a>
+                    <a class="git" href="https://github.com/Logan-dlp/Cel-Shading" target="_blank">
+                        <button>Github</button>
+                    </a>
+                    <a class="download" href="https://github.com/Logan-dlp/Cel-Shading/releases" target="_blank">
+                        <button>Téléchargement</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>

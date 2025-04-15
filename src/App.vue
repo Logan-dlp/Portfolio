@@ -7,6 +7,7 @@
      import Navbar from './components/Nav.vue'
      
      import PaintingQuest from './components/projects/PaintinQuest.vue'
+     import CelshadingForUnity6 from './components/projects/CelshadingForUnity6.vue'
      
      import NotFound from './components/NotFound.vue'
 
@@ -18,6 +19,7 @@
        '/contact' : Contact,
 
        '/project/painting-quest': PaintingQuest,
+       '/project/celshading-for-unity6': CelshadingForUnity6,
      }
 
      export default {
