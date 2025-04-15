@@ -45,5 +45,26 @@
                 </div>
             </div>
         </div>
+
+        <div class="project">
+            <div class="highlighting">
+                <iframe class="video" src="https://www.youtube.com/embed/MGiv3Xu24iQ?si=rWr88xrBYUg7dcEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="all-description">
+                <h1>PrefaBrush</h1>
+                <p>Lors d'un projet nous avons voulu utiliser le Grass Painter d'Unity, mais n'étant pas totalement adapté complètement à nos besoins et notre utilisation, je me suis mis au défi de réaliser un Tools répondant à tous les besoins principaux d'un Painter dont on avait besoin.</p>
+                <div class="button-links">
+                    <a class="detail" href="#/project/prefabrush">
+                        <button>Détails >></button>
+                    </a>
+                    <a class="git" href="https://github.com/Logan-dlp/com.logandlp.prefabrush" target="_blank">
+                        <button>Github</button>
+                    </a>
+                    <a class="download" href="https://github.com/Logan-dlp/com.logandlp.prefabrush/releases" target="_blank">
+                        <button>Téléchargement</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>

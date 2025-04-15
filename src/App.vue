@@ -8,6 +8,7 @@
      
      import PaintingQuest from './components/projects/PaintinQuest.vue'
      import CelshadingForUnity6 from './components/projects/CelshadingForUnity6.vue'
+     import Prefabrush from './components/projects/Prefabrush.vue'
      
      import NotFound from './components/NotFound.vue'
 
@@ -20,6 +21,7 @@
 
        '/project/painting-quest': PaintingQuest,
        '/project/celshading-for-unity6': CelshadingForUnity6,
+       '/project/prefabrush': Prefabrush,
      }
 
      export default {
