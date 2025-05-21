@@ -45,7 +45,7 @@
         <div class="all-skill">
             <div class="slot-skill">
                 <div class="skill">
-                    <h4>Communications</h4>
+                    <h4>Communication</h4>
                     <p>Pour être un communicateur efficace, je m'assure que ce que je dis est professionnel, inclusif et bien reçu par les autres. Je m'efforce d'être un membre d'équipe accessible et fiable.</p>
                 </div>
 

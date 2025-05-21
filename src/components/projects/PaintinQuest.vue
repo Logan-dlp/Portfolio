@@ -22,7 +22,7 @@
             <h3>Introduction :</h3>
             <p>Dans le cadre de mes études à <strong><u>E-artsup Montpellier</u></strong>, mon équipe et moi composé de 2<sup>eme</sup> année et de 3<sup>eme</sup> année avons pu participé à la nocturne <strong><u>"FABRE N'EST PAS COUCHÉ" 2025</u></strong>, organiser par le <strong><u>Musée Fabre de Montpellier</u></strong>.<br>Ce projet nous a apporté une vraie relation client entre le musée et notre production, respectant une réelle deadline et entretenir une bonne organisation entre nos cours, notre projet de fin d'étude et celui-ci.</p>
             <h3>Mes tâches et mon impact :</h3>
-            <p>Étant le seul développer dans cette équipe, j'ai dû écrire toute l'architecture du projet au niveau <strong><u>Gameplay</u></strong> en faisant en sorte d'avoir un code maintenable et facilement intégrable, j'ai aussi développé un <strong><u>Tools</u></strong> pour permettre d'intégrer automatiquement les tableaux dans le jeu et aussi pour les supprimés.</p>
+            <p>Étant le seul développeur dans cette équipe, j'ai dû écrire toute l'architecture du projet au niveau <strong><u>Gameplay</u></strong> en faisant en sorte d'avoir un code maintenable et facilement intégrable, j'ai aussi développé un <strong><u>Tools</u></strong> pour permettre d'intégrer automatiquement les tableaux dans le jeu et aussi pour les supprimer.</p>
             <h3>Équipe :</h3>
             <div class="li-container">
                 <div>

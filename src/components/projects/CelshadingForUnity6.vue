@@ -20,7 +20,7 @@
         </div>
         <div class="project-info">
             <h3>Introduction :</h3>
-            <p>Avec les changements de Unity 6 et leurs nouvelles gestions des lumières nous avons eu, moi et mon équipe une problématique avec les packages de CelShading déjà fait.<br>J'ai donc décidé de le réécrire, en le rendant le plus modulable possible et de faire en sorte qu'il réponde à nos besoins.</p>
+            <p>Avec les changements de Unity 6 et leurs nouvelles gestions des lumières nous avons eu, mon équipe et moi une problématique avec les packages de CelShading déjà fait.<br>J'ai donc décidé de le réécrire, en le rendant le plus modulable possible et de faire en sorte qu'il réponde à nos besoins.</p>
             <h3>Mes tâches et mon impact :</h3>
             <p>J'ai dû écrire la gestion des lumières dans un fichier Shader natif en HLSL, pour ensuite pouvoir l'adapter dans un Shader Graph pour être plus facilement intégrable et modulaire.</p>
             <h3>Équipe :</h3>

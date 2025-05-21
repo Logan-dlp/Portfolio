@@ -22,7 +22,7 @@
             <h3>Introduction :</h3>
             <p>Lors d'un projet nous avons voulu utiliser le Grass Painter d'Unity, mais n'étant pas totalement adapté à nos besoins et notre utilisation, je me suis mis au défi de réaliser un Tools répondant à tous les besoins principaux d'un Painter dont on avait besoin.</p>
             <h3>Mes tâches et mon impact :</h3>
-            <p>Pour ce projet le plus compliquer à étés de trouver chaque possibilité que l'utilisateur voudrais trouver dans un "Painter Custom", j'ai donc détaillé chaque paramètre, chaque option pour qu'il soit le plus utilisable possible et de sauvegarder tous ces paramètres.</p>
+            <p>Pour ce projet le plus compliqué à été de trouver chaque possibilité que l'utilisateur voudrais trouver dans un "Painter Custom", j'ai donc détaillé chaque paramètre, chaque option pour qu'il soit le plus utilisable possible et de les sauvegarder.</p>
             <h3>Équipe :</h3>
             <div class="li-container">
                 <div>
